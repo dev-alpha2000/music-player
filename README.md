@@ -28,3 +28,22 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000.
+
+Usage
+Play Music: The app will start playing a random song from the playlist when you open it.
+Control Playback: You can use the play/pause button to control the music, and the next/previous buttons to change tracks.
+Track Progress: The progress bar shows how much of the song has been played.
+Customization
+Add or Modify Songs: You can add more songs or change the playlist in the data/ directory.
+Shuffle Feature: A shuffle feature can be implemented to enhance the randomness of the song selection.
+Volume Control: Add volume control for more flexibility in the player.
+Example
+When you open the app, you will:
+
+Hear a random song play automatically.
+Control the playback using the play/pause button and skip between songs with the next/previous buttons.
+Watch the progress bar update as the song plays.
+Dependencies
+React: Frontend framework for building the UI.
+React Audio/HTML5 Audio API: For managing audio playback.
+CSS Modules or Styled Components: For styling.
